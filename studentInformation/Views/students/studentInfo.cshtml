@@ -1,0 +1,20 @@
+﻿@model studentInformation.Models.students
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.title</title>
+</head>
+<body>
+    <div> 
+        <p>Name : @Model.name</p>
+        <p>Student # : @Model.student_number</p>
+        <p>Program of study : @Model.program_name</p>
+    </div>
+</body>
+</html>
